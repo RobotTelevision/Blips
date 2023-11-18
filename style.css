@@ -1,0 +1,42 @@
+.character {
+    width: 64px;
+    height: 64px;
+    background-image: url('Blip.png');
+    background-repeat: no-repeat;
+    background-size: 256px 256px; /* Assuming all 16 frames in a 4x4 grid */
+    position: absolute;
+    transition: left 0.5s ease, bottom 0.5s ease;
+    image-rendering: pixelated;
+}
+
+/* Walking animation (first row: frames 0 to 3) */
+.character-walk {
+    animation: walk-animation 0.8s steps(4) infinite;
+}
+
+@keyframes walk-animation {
+    from { background-position: 0px 0; }
+    to { background-position: -256px 0; } /* Full width of the row */
+}
+
+/* Idle animation (second row: frames 4 to 7) */
+.character-idle {
+    animation: idle-animation 1.2s steps(4) infinite;
+}
+
+@keyframes idle-animation {
+    from { background-position: 0px -64px; } /* Start of the second row */
+    to { background-position: -256px -64px; } /* Full width of the row */
+}
+
+/* Add other animations for other rows as needed... */
+
+/* Static emote display (example: 6th frame of the first row) */
+.character-emote {
+    background-position: -192px 0; /* 64px * 3 (moving over by three frames) */
+}
+
+.emote {
+    width: 50px; /* Adjust size as needed */
+    transition: bottom 0.3s;
+}
