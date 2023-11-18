@@ -29,3 +29,5 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 ## Contact
 
 Project Link: https://github.com/RobotTelevision/Blips
+
+The code and readme were almost totally writen by GPT4...
