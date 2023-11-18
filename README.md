@@ -13,14 +13,14 @@
 ## Setup
 
 1. **Clone the Repository**:
-git clone https://github.com/yourusername/blips.git
+git clone https://github.com/RobotTelevision/blips.git
 2. **Get Twitch Oauth**: Use https://twitchapps.com/tmi/ to get an Oauth code and put it in config.js
 3. **Host It**: Upload to a webserver or use Python's webserver "python -m http.server" from the directory.
 4. **OBS Configuration**: Add the local or hosted URL as a browser source in OBS.
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/blips/issues) if you want to contribute.
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/RobotTelevision/blips/issues) if you want to contribute.
 
 ## License
 
@@ -28,4 +28,4 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 
 ## Contact
 
-Project Link: (https://github.com/RobotTelevision/Blips)https://github.com/RobotTelevision/Blips
+Project Link: https://github.com/RobotTelevision/Blips
