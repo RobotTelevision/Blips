@@ -15,8 +15,9 @@
 1. **Clone the Repository**:
 git clone https://github.com/RobotTelevision/blips.git
 2. **Get Twitch Oauth**: Use https://twitchapps.com/tmi/ to get an Oauth code and put it in config.js
-3. **Host It**: Upload to a webserver or use Python's webserver "python -m http.server" from the directory.
-4. **OBS Configuration**: Add the local or hosted URL as a browser source in OBS.
+3. **Set Channel**: Set your twitch channel name in config.js
+4. **Host It**: Upload to a webserver or use Python's webserver "python -m http.server" from the directory.
+5. **OBS Configuration**: Add the local or hosted URL as a browser source in OBS.
 
 ## Contributing
 
