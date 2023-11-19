@@ -1,4 +1,4 @@
-const channelName = 'robottelevision'; // Replace with your Twitch channel name
+const channelName = config.channelName;
 const oauthToken = config.oauthToken;
 
 const client = new tmi.Client({
